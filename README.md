@@ -1,3 +1,8 @@
+# owlto
+ node >= 20.18.0
+ npm@7
+
+
 # Whirlpools
 
 Whirpools is an open-source concentrated liquidity AMM contract on the Solana blockchain.

@@ -143,10 +143,10 @@ export async function prepareTokenAccountsInstructions(
       const existingBalance = tokenAccount.exists
         ? tokenAccount.data.amount
         : 0n;
-      assert(
-        BigInt(spec[mint.address]) <= existingBalance,
-        `Token account for ${mint.address} does not have the required balance`,
-      );
+      // assert(
+      //   BigInt(spec[mint.address]) <= existingBalance,
+      //   `Token account for ${mint.address} does not have the required balance`,
+      // );
     }
   }
 
